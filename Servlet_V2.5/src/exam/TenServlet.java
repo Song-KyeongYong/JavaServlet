@@ -28,7 +28,7 @@ public class TenServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html;charset=utf-8");
 		PrintWriter out = response.getWriter();
-		out.println("<h1>1-10까지 출력!<h1>");
+		out.println("<h1>1-10까지 출력!</h1>");
 		for(int i=1; i<=10; i++) {
 			out.print(i+"<br>");
 		}
